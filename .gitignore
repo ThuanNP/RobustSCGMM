@@ -1,0 +1,88 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*~
+*.swo
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Generated simulation outputs
+simulation/output/
+simulation/save_data/
+real_data/NIST/output/
+
+# Preprocessed data (NN features)
+real_data/NIST/preprocessed_data/
+real_data/preprocessed_data/
+
+# Generated population parameters (from R script)
+simulation/generated_pop/true_param/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Cấu hình cục bộ của công cụ AI (chứa đường dẫn máy cá nhân)
+.claude/
+
+# Tài liệu hướng dẫn AI agent — giữ cục bộ, không đưa vào repo công khai
+CLAUDE.md
+AGENTS.md
+
+# Toàn văn bài báo — KHÔNG phát hành lại, xem README mục Reference
+paper/
+
+# Ảnh chụp kết quả mô phỏng (mỗi thư mục ~255 MB) — giữ cục bộ
+_backup_pre_paperfix/
+_backup_with_dsq/

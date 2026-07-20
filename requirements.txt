@@ -1,0 +1,10 @@
+matplotlib
+numpy
+pandas
+pot
+torch
+seaborn
+scikit-learn==1.2.1
+scipy
+torchvision
+tqdm
